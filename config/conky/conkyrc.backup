@@ -33,4 +33,4 @@ no_buffers yes
 uppercase no
 
 TEXT
- ${if_mpd_playing}$mpd_artist - ${color slategrey}${scroll 80 $mpd_title}$color - $mpd_album «${if_match "$mpd_status" == "Playing"}${color lightgreen}$mpd_status$endif${if_match "$mpd_status" == "Paused"}${color red}$mpd_status$endif$color» $mpd_elapsed/$mpd_length ${mpd_bar 5,200}$endif $alignr${exec sh /home/jrouly/.config/conky/volume.sh} · $cpu% · ${acpitemp}°C 
+ ${if_mpd_playing}$mpd_artist - ${color slategrey}${scroll 80 $mpd_title}$color - $mpd_album «${if_match "$mpd_status" == "Playing"}${color lightgreen}$mpd_status$endif${if_match "$mpd_status" == "Paused"}${color red}$mpd_status$endif$color» $mpd_elapsed/$mpd_length ${mpd_bar 5,200}$endif $alignr${exec sh /home/jon/.config/conky/volume.sh} · $cpu% · ${acpitemp}°C 

@@ -428,12 +428,12 @@
     </keybind>
     <keybind key="W-Escape">
       <action name="Execute">
-        <command>/home/jrouly/bin/wallpaper-single</command>
+        <command>/home/jon/bin/wallpaper-single</command>
       </action>
     </keybind>
     <keybind key="W-l">
       <action name="Execute">
-        <command>/home/jrouly/bin/lock-script</command>
+        <command>/home/jon/bin/lock-script</command>
       </action>
     </keybind>
     <keybind key="C-A-Delete">
@@ -484,7 +484,7 @@
     </keybind>
     <keybind key="XF86TouchpadToggle">
       <action name="Execute">
-        <command>/home/jrouly/bin/trackpad-toggle</command>
+        <command>/home/jon/bin/trackpad-toggle</command>
       </action>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">

@@ -6,29 +6,19 @@
 [[ $- != *i* ]] && return
 
 source /usr/share/git/completion/git-completion.bash
-
-# set up amazon aws credentials for ec2 api tools
-. /home/jrouly/.ec2/config
-
 shopt -s checkwinsize
 
 # EXPORT ENVIRONMENT VARIABLES
 export EDITOR=vim
-#export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=lcd'
-export TRJ_HOME=/home/jrouly/code/trajectory
 
 PS1='[\u@\h \W]\$ '
 
 
 # CUSTOM PATH ENTRIES; SOME MAY BE OUT OF DATE
 PATH=$PATH:.
-PATH=$PATH:/home/jrouly/bin
-PATH=$PATH:/home/jrouly/.screenlayout
-PATH=$PATH:/home/jrouly/.gem/ruby/2.2.0/bin/
-PATH=$PATH:/home/jrouly/.meteor
-
-PATH=$PATH:/home/jrouly/pkgs/spark/bin
-PATH=$PATH:/home/jrouly/pkgs/hadoop/bin
+PATH=$PATH:/home/jon/bin
+PATH=$PATH:/home/jon/.screenlayout
+PATH=$PATH:/home/jon/.gem/ruby/2.2.0/bin/
 
 export JAVA_HOME="/usr/lib/jvm/default"
 
@@ -49,7 +39,6 @@ alias mkdir='mkdir -p -v'
 alias nano='nano -w'
 alias vi='vim'
 alias py='python2.7'
-alias slack='chromium --app=http://srct.slack.com'
 alias uptime='uptime -p'
 alias free='free -h'
 alias grep='grep --color=always'
@@ -58,7 +47,7 @@ alias synctime='sudo ntpd -qg'
 
 alias off='systemctl poweroff'
 alias reboot='systemctl reboot'
-alias pms='systemctl suspend || /home/jrouly/bin/lock-script'
+alias pms='systemctl suspend || /home/jon/bin/lock-script'
 
 alias sup='sudo pacman -Syu'
 

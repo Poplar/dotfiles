@@ -1,9 +1,9 @@
-music_directory     "/home/jrouly/music/"
-playlist_directory  "/home/jrouly/.mpd/playlists/"
-db_file             "/home/jrouly/.mpd/mpd.db"
-log_file		      	"/home/jrouly/.mpd/mpd.log"
-pid_file            "/home/jrouly/.mpd/mpd.pid"
-state_file          "/home/jrouly/.mpd/mpdstate"
+music_directory     "/home/jon/music/"
+playlist_directory  "/home/jon/.mpd/playlists/"
+db_file             "/home/jon/.mpd/mpd.db"
+log_file		      	"/home/jon/.mpd/mpd.log"
+pid_file            "/home/jon/.mpd/mpd.pid"
+state_file          "/home/jon/.mpd/mpdstate"
 
 ###############################################################################
 

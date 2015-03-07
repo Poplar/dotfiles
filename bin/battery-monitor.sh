@@ -28,7 +28,7 @@ then
   then
     notify-send -u critical -i $critical_icon "Computer will shutdown in 2 minutes."
     sleep 120
-    systemctl suspend && /home/jrouly/bin/lock-script
+    systemctl suspend && /home/jon/bin/lock-script
 
   # BATTERY CRITICAL
   elif [[ $batt -le $critical_lvl ]];

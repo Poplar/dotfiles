@@ -186,13 +186,6 @@
 						</execute>
 					</action>
 				</item>
-				<item label="Firefox-Tor">
-					<action name="Execute">
-						<execute>
-							firefox -P jrouly-tor
-						</execute>
-					</action>
-				</item>
 				<item label="Lynx">
 					<action name="Execute">
 						<execute>
