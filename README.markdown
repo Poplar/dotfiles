@@ -1,4 +1,4 @@
-DOTFILES (Jonathan Gorman)
+DOTFILES (Jonathan)
 =======================
 
 Personal repository of dotfiles. This is for those settings that migrate well between machines and that I consider safe to publish.
